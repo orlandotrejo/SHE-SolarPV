@@ -1,14 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Analisis Eliminacion Selectiva de Armonicos
-% Dibuja una señal cuadrada modificando los angulos de disparo
+% Dibuja una seÃ±al cuadrada modificando los angulos de disparo
 % GSIEP - Julio 2015
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Modificar SOLO las primeras lineas comentadas
 
 Fs = 10000;       % Frecuencia de muestreo
-fa = 60;          % Frecuencia de la señal
-N = 60;         % Periodos de la señal a ver
+fa = 60;          % Frecuencia de la seÃ±al
+N = 60;         % Periodos de la seÃ±al a ver
 %Fse = 100;       % Frecuencia max para mostrar el espectro
 
 % a1 = 11.169924172563107;     % Angulo de Disparo 1 Mio 2
@@ -31,7 +31,7 @@ a5 = 62.643239796786368;     % Angulo de Disparo 5
 % a4 = 90.00;     % Angulo de Disparo 4
 % a5 = 90.00;     % Angulo de Disparo 5
 
-% Fin de prueba sin modulaci�n
+% Fin de prueba sin modulación
 
 Vmax = 1;       % Valor Maximo de Salida
 Vmin = 0;       % Valor Minimo de Salida
@@ -79,7 +79,7 @@ end
 
 Vodef = (Vodef);
 
-figure()  % Plot de la señal en tiempo
+figure()  % Plot de la seÃ±al en tiempo
 plot((1:N*LEN)*Ts*fa*360,Vodef);
 
 NFFT = 2^nextpow2(N*LEN); % Proxima Potencia de 2
