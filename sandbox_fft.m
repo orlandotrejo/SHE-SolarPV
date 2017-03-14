@@ -1,6 +1,6 @@
-% Sandbox para graficar el espectro armonico de una seÒal usando FFT
-% ENTRADAS: SeÒales a graficar en frecuencia x o z en este ejemplo
-% SALIDAS: Gr·fico de la FFT
+% Sandbox para graficar el espectro armonico de una se√±al usando FFT
+% ENTRADAS: Se√±ales a graficar en frecuencia x o z en este ejemplo
+% SALIDAS: Gr√°fico de la FFT
 
 Fs = 1000;                    % Sampling frequency
 T = 1/Fs;                     % Sample time
